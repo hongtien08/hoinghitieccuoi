@@ -1,0 +1,61 @@
+.app-header-top{
+    font-family: cursive;
+    /* font-size: -webkit-xxx-large; */
+    display: inline-grid;
+    height: 100px;
+    margin-bottom: 80px
+}
+.app-header-top div {
+   font-size: 48px;
+}
+.app-header-top div.app-header-top-sub {
+    font-size: x-large;
+    font-family: monospace;
+    border-bottom: ridge;
+}
+
+.app-header-menu {
+    position: absolute; 
+    width: 100%;
+    top: 130px;
+}
+
+@media only screen and (max-width: 800px) {
+    .app-header-top div {
+        font-size: 30px;
+     }
+     .app-header-top{
+        margin-bottom: 30px;
+    }
+     .app-header-menu {
+        position: absolute; 
+        width: 100%;
+        top: 0;
+    }
+    
+     .app-header-menu button.navbar-toggler {
+        border-color: transparent;
+     }
+     #basic-navbar-nav{
+         background-color: #cccccc;
+     }
+  }
+
+  .card {
+    top: -450px;
+    left: 180px;
+    width: 18rem;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #6A453b;
+    border-color: white;
+  }
+
+.img-fluid { 
+    padding: 30px;
+    height: 600px;
+    width: 1440px;
+}
+  
