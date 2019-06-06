@@ -1,7 +1,8 @@
 import React from 'react';
 import ImageBox from '../../../components/ImageBox';
-
+import BlockIteam from '../../../components/BlockIteam';
 import { Container, Row} from 'react-bootstrap';
+
 
 class HomePage extends React.Component {
 
@@ -11,6 +12,7 @@ class HomePage extends React.Component {
                 <Container>
                     <Row>
                         <ImageBox />
+                        <BlockIteam />
                     </Row>
                     <Row>
                    
