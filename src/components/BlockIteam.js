@@ -19,7 +19,7 @@ class BlockIteam extends React.Component {
             </Card.Body>
           </Card>
           </row1>
-          
+
           <row2>
           <Card style={{ width: '22rem' }}>
             <Card.Img variant="top" src="images/sukien.jpg" />
