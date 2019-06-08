@@ -1,9 +1,10 @@
 body {
-  background-image: url(/images/Capture.PNG);
+  /* background-image: url(/images/Capture.PNG);
   background-repeat: repeat-y;
   background-attachment: fixed;
   background-position: center;
-  background-size: contain;
+  background-size: contain; */
+  background-color: #E5E5E5;
 }
 
 
