@@ -1,0 +1,19 @@
+.app-block-item {
+    margin-bottom: 15px;
+}
+.app-block-item .card-body{
+    text-align: left;
+}
+.app-block-item img {
+    height: 30vh;
+}
+.app-block-item .title-color {
+    color: #FBCE0E;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .app-block-item img {
+        height: auto;
+    }
+}

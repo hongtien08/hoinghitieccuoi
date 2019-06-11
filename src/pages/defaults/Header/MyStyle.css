@@ -66,6 +66,7 @@
 .app-image-box {
     width: 100%;
     height: 45vh;
+    text-align: left;
 }
 .app-image-content {
     width: 304px;
@@ -73,5 +74,11 @@
     margin-bottom: auto;
     margin-top: auto;
     margin-left: 15%;
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+
+.app-image-content .card-title {
+    line-height: 30px;
 }
 
