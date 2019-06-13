@@ -8,7 +8,7 @@ import {
 class HeaderMenu extends React.Component {
     render() {
         return (
-            <div>
+            <div className="app-menu-header">
                 <Navbar bg="transparent" expand="lg" className="app-header-menu">
                 <Navbar.Brand>&nbsp;</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className="justify-content-end" />
