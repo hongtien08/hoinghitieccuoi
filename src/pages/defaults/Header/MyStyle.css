@@ -39,6 +39,9 @@
      #basic-navbar-nav{
          background-color: #cccccc;
      }
+     .app-su-kien-right {
+        height: auto !important;
+     }
   }
 
   /* .card {
@@ -86,3 +89,45 @@
     padding-right: 10px;
 }
 
+.app-h1 {
+    border-bottom: 2px solid;
+    width: 240px;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+/* .card-title {
+    color: #4D4009;
+} */
+
+.app-su-kien-left {
+    margin-bottom: 0!important;
+    height: 40vh !important;
+}
+.app-su-kien-left img {
+    height: 100% !important;
+}
+.app-su-kien-right{
+    margin-bottom: 0!important;
+    height: 40vh !important;
+}
+.app-su-kien-right img {
+    /* height: 9vh!important; */
+}
+/* .app-su-kien .app-su-kien-content{
+    height: 40vh;
+} */
+
+
+@media only screen and (max-width: 700px) {
+     .app-su-kien-right {
+        height: auto !important;
+     }
+     .app-su-kien-right img {
+         height: 0 !important;
+     }
+  }
+.img-fluid {
+    padding-top: 50px;
+}

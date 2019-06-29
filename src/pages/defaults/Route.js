@@ -4,6 +4,8 @@ import { Route } from 'react-router-dom';
 
 import Header from './Header';
 import HomePage from './HomePage';
+import HoiNghi from './HOINGHI';
+import Footer from './Footer';
 
 
 function DefaultContent(route) {
@@ -16,6 +18,7 @@ function DefaultContent(route) {
                 <div>
                     <Header />
                     <route.component  component={route.component} />
+                    <Footer />
                 </div>
             )}
         />
@@ -26,6 +29,12 @@ const RouteList = [
     {
         path: "/",
         component: HomePage,
+        routes: [],
+        exact: true
+    },
+    {
+        path: "/hoinghi",
+        component: HoiNghi,
         routes: [],
         exact: true
     }

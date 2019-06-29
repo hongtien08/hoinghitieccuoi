@@ -1,0 +1,15 @@
+.app-footer {
+    background-image: url('./footer.png');
+    height: 30vh;
+    margin-top: 40px;
+}
+.app-footer-content{
+    background-color: #ffffff;
+    width: 280px;
+    height: 190px;
+    opacity: 0.8;
+    margin-bottom: auto;
+    margin-top: 5vh;
+    margin-left: 15%;
+
+}
