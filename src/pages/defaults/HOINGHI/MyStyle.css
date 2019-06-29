@@ -1,0 +1,30 @@
+.app-hoinghi-page .container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.app-hoinghi-page .container .row {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.app-hoinghi-page .card-body {
+
+     border: 0;
+}
+.app-hoinghi-page .app-hoinghi-item {
+    background-color: #E4DDC0;
+
+}
+.app-hoinghi-page .app-hoinghi-image img{
+    width: 100%;
+}
+.app-hoinghi-page .app-hoinghi-item{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
