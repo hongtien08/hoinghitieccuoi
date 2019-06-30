@@ -18,8 +18,8 @@ class HoiNghiItem extends React.Component {
                         </Card.Body>
                     </Card>
                     </Col>
-                    <Col>
-                        <Card>
+                    <Col style={{paddingRight: '100px'}}>
+                        <Card style={{marginTop: '-60px'}}>
                             <Card.Img src="images/trangtrihoinghi.png" />
                         </Card>
                     </Col>
