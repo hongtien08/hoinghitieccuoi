@@ -9,7 +9,7 @@ class TrangThietBiItem extends React.Component {
                     <Col style={{ marginBottom: 'auto', marginTop: 'auto' }}>
                         <Card className="card-body" bg="transparent" border="transparent">
                             <Card.Body>
-                                <Card.Title>Trang Thiết Bị<span style={{ color: '#FBCE0E' }}>HỘI NGHỊ</span></Card.Title>
+                                <Card.Title>TRANG THIẾT BỊ<span style={{ color: '#FBCE0E' }}> HỘI NGHỊ</span></Card.Title>
                                 <Card.Text>
                                 Các cặp đôi luôn chia sẻ với chúng tôi về điều mà họ thích nhất tại Riverside Palace, chính là gu thẩm mĩ tinh tế, thanh lịch. Với thế mạnh sẵn có và mong muốn tất cả các sự kiện...
                                  </Card.Text>

@@ -3,6 +3,9 @@ import { Row, Card, Button, Col } from 'react-bootstrap';
 
 
 class HoiNghiItem extends React.Component {
+    onClickHandle() {
+          window.location.href="/sanhhoinghi";
+        }
     render() {
         return (
             <div>
@@ -14,7 +17,7 @@ class HoiNghiItem extends React.Component {
                             <Card.Text>
                                 Chúng tôi thấu hiểu bạn luôn mong muốn khoác lên không gian tiệc cưới một màu sắc riêng của mình và người bạn đời. Âm nhạc, hình ảnh, mọi diễn tiến trong ngày cưới của bạn...
                                  </Card.Text>
-                            <Button variant="primary">CHI TIẾT</Button>
+                            <Button onClick={this.onClickHandle.bind(this)} variant="primary">CHI TIẾT</Button>
                         </Card.Body>
                     </Card>
                     </Col>

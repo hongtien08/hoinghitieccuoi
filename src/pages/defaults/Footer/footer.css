@@ -6,10 +6,42 @@
 .app-footer-content{
     background-color: #ffffff;
     width: 280px;
-    height: 190px;
+    height: fit-content;
     opacity: 0.8;
     margin-bottom: auto;
     margin-top: 5vh;
     margin-left: 15%;
-
+    width: fit-content;
+    position: absolute;
+    padding: 3px 10px 3px 10px;
 }
+.app-footer .fa {
+    border-radius: 50%;
+    /* padding: 20px; */
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    padding: 10px;
+}
+
+.app-footer .fa:hover {
+    opacity: 0.7;
+}
+
+.app-footer .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.app-footer .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.app-footer .fa-instagram {
+    background: #125688;
+    color: white;
+  }
