@@ -6,6 +6,7 @@ import Header from './Header';
 import HomePage from './HomePage';
 import HoiNghi from './HOINGHI';
 import SanhHoiNghi from './SanhHoiNghi';
+import TiecCuoi from './TIECCUOI';
 import Footer from './Footer';
 
 
@@ -44,7 +45,13 @@ const RouteList = [
         component: SanhHoiNghi,
         routes: [],
         exact: true
-    }
+    },
+    {
+        path: "/tieccuoi",
+        component: TiecCuoi,
+        routes: [],
+        exact: true
+    },
 ];
 
 const Router = RouteList.map((route, i) => DefaultContent(route));

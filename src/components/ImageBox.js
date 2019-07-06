@@ -2,7 +2,9 @@ import React from 'react';
 
 import { Button, Card, Image } from 'react-bootstrap';
 class ImageBox extends React.Component {
-  bui
+  onClickHandle() {
+    window.location.href="/tieccuoi";
+  }
   render() {
     return (
       <Card className="app-image-box">
@@ -12,7 +14,7 @@ class ImageBox extends React.Component {
           <Card.Text>
             {this.props.data.content}
           </Card.Text>
-          <Button variant="primary">CHI TIẾT</Button>
+          <Button onClick={this.onClickHandle.bind(this)} variant="primary">CHI TIẾT</Button>
         </Card.ImgOverlay>
       </Card>
     )

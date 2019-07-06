@@ -23,7 +23,8 @@ class HomePage extends React.Component {
         let data = {
             img: "images/anhbia.jpg",
             title: "<span style='border-bottom: 2px solid;padding-bottom: 6px;'>TIỆC CƯỚI <span style='color: #FBCE0E;'>TR</span></span><span style='color: #FBCE0E;'>ỌN VẸN</span>",
-            content: "Garden Rose tự hào tổ chức thành công nhiều tiệc cưới ấn tượng nhất trong những năm gần đây. Thấu hiểu ước mơ về một tiệc cưới thần tiên của các đôi trẻ, Riverside Palace luôn..."
+            content: "Garden Rose tự hào tổ chức thành công nhiều tiệc cưới ấn tượng nhất trong những năm gần đây. Thấu hiểu ước mơ về một tiệc cưới thần tiên của các đôi trẻ, Riverside Palace luôn...",
+            link: "/tieccuoi"
         };
         let result = [];
             result.push(<ImageBox data={data} key="01" /> );

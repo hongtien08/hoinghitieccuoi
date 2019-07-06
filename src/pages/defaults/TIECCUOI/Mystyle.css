@@ -1,0 +1,37 @@
+.app-tieccuoi-page .app-tieccuoi-item {
+    background-color: #E4DDC0;
+    margin-top: 120px;
+}
+.app-tieccuoi-page .app-tieccuoi-item .card-img {
+    margin-bottom: 60px;
+}
+.app-tieccuoi-page .app-tieccuoi-item .card {
+    background-color: #E4DDC0;
+    border: 0;
+}
+.app-tieccuoi-page .card-body {
+    border: 0;
+} 
+.app-tieccuoi-page .app-tieccuoi-image img{
+    width: 100%;
+    max-width: 100%;
+}
+.app-tieccuoi-page .container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.app-tieccuoi-page .container .row {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.app-tieccuoi-page .app-thucdon-item {
+    background-color: white;
+    /* margin-top: 120px; */
+    border: 0;
+}
